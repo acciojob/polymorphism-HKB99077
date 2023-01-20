@@ -4,21 +4,21 @@ public class Main {
 
     public static class Product{
     public int product(int x,int y){
-        return x+y;
+        return x*y;
     }
 
     public int product(int x,int y,int z){
-    return x+y+z;
+    return x*y*z;
     }
 
     public double product(double x, double y){
-        return x+y;
+        return x*y;
     }
     }
 
-    public ststic void main(String[] args){
+    public static void main(String[] args){
 
-        Product p=new Product();
+        Product p = new Product();
         p.product(5,5);
         p.product(5,5,5);
         p.product(5.01,4.02);
